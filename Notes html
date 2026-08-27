@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Study Notes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2563eb;
+    }
+
+    .note {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .note h2 {
+      color: #2563eb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>📚 My Study Notes</h1>
+
+  <div class="note">
+    <h2>🧪 Science</h2>
+    <p>यहाँ Science के notes और महत्वपूर्ण प्रश्न जोड़े जा सकते हैं।</p>
+  </div>
+
+  <div class="note">
+    <h2>➗ Mathematics</h2>
+    <p>यहाँ Maths के formulas और questions जोड़े जा सकते हैं।</p>
+  </div>
+
+  <div class="note">
+    <h2>💻 Computer</h2>
+    <p>यहाँ Computer के notes और important questions जोड़े जा सकते हैं।</p>
+  </div>
+
+</body>
+</html>
