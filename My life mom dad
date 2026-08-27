@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class 9 Notes</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f2f5f9;
+            text-align: center;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            padding: 25px;
+        }
+
+        .box {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Class 9 Notes</h1>
+    <p>अपने Notes यहाँ पढ़ें</p>
+</header>
+
+<div class="box">
+    <h2>🔬 Science</h2>
+    <p>Chapter 1 – Matter in Our Surroundings</p>
+    <p>Chapter 2 – Is Matter Around Us Pure</p>
+</div>
+
+<div class="box">
+    <h2>🧮 Maths</h2>
+    <p>Chapter 1 – Number Systems</p>
+    <p>Chapter 2 – Polynomials</p>
+</div>
+
+<a href="index.html">
+    <button>🏠 Home पर वापस जाएँ</button>
+</a>
+
+</body>
+</html>
