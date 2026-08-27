@@ -4,52 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Study Notes</title>
+
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f7fb;
-      margin: 0;
-      padding: 20px;
+      text-align: center;
     }
 
     h1 {
-      text-align: center;
-      color: #2563eb;
+      background: #2563eb;
+      color: white;
+      margin: 0;
+      padding: 30px 10px;
     }
 
-    .note {
-      background: white;
+    .buttons {
+      max-width: 500px;
+      margin: 40px auto;
       padding: 20px;
-      margin: 20px auto;
-      max-width: 800px;
-      border-radius: 12px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     }
 
-    .note h2 {
+    .btn {
+      display: block;
+      background: white;
       color: #2563eb;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 18px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    }
+
+    .btn:hover {
+      background: #2563eb;
+      color: white;
     }
   </style>
 </head>
 
-<body>
-
-  <h1>📚 My Study Notes</h1>
-
-  <div class="note">
-    <h2>🧪 Science</h2>
-    <p>यहाँ Science के notes और महत्वपूर्ण प्रश्न जोड़े जा सकते हैं।</p>
-  </div>
-
-  <div class="note">
-    <h2>➗ Mathematics</h2>
-    <p>यहाँ Maths के formulas और questions जोड़े जा सकते हैं।</p>
-  </div>
-
-  <div class="note">
-    <h2>💻 Computer</h2>
-    <p>यहाँ Computer के notes और important questions जोड़े जा सकते हैं।</p>
-  </div>
-
-</body>
-</html>
